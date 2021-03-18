@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sample</title>
+    <meta name="description" content="zambian past papers and classes">
+    <meta name="author" content="shawn jabala">
+    <meta name="keywords" content="html,hello,first">
+    <link rel="script">
+</head>
+<body>
+
+     <p>hello world this is my first website thank you and good bye</p>
+     <input id="sad" type="search" />
+     <br/>
+     <button onclick="getValue()">get</button>
+
+<script type="text/javascript">
+                                 function getValue(){
+                                     alert(document.getElementById('sad').value);
+
+                                 }
+</script>
+
+                                       <div>
+                                          <nav>
+                                              <ul class="fast">
+                                                  <a href="macha.jpg"><li>mathematics</li></a>
+                                                  <a href="macha.jpg"><li>science</li></a>
+                                                  <li>biology</li>
+                                                  <li>physics</li>
+                                                  <li>chemistry</li>
+                                                  <li>additional mathematics</li>
+                                              </ul>
+                                          </nav>
+                                       </div>
+
+         <style rel="stylesheet" type="text/css">
+
+             .fast{
+                 display: inline-flex;
+                 padding-right: 700px;
+                 padding-bottom: 55px;
+             }
+             div nav ul li{
+                 padding-inline-start: 20px;
+             }
+         </style>
+
+
+
+</body>
+</html>
